@@ -1,0 +1,20 @@
+{
+  "name": "stock-trading-backend",
+  "version": "1.0.0",
+  "description": "This is stock trading backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "author": "Anjani Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "mongoose": "^8.14.0",
+    "supertest": "^7.1.0"
+  }
+}
